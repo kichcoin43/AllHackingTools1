@@ -1,6 +1,6 @@
 cd
 cd
-cd AllHackingTools
+cd AllHackingTools1
 python3 src/CheckVersion.py
 sleep 3
 clear
@@ -12,9 +12,9 @@ cd
 cd
 cd AllHackingTools 
 cd Tool
-mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools
+mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools1
 cd
-cd AllHackingTools
+cd AllHackingTools1
 clear
 echo -e $b"[ ✔ ]"$g"succesfull verifined"$w
 python3 MainMenu.py
