@@ -20,4 +20,4 @@ pip2 install requests
 cd
 cd
 cd AllHackingTools
-python2 src/InstallMenu.py
+python3 src/InstallMenu.py
