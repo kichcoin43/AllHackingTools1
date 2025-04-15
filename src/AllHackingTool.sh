@@ -10,7 +10,7 @@ b="\033[1;34m"
 w="\033[0m"
 cd
 cd
-cd AllHackingTools 
+cd AllHackingTools1
 cd Tool
 mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools1
 cd
