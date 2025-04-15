@@ -17,7 +17,7 @@ sleep 2
 clear
 cd
 cd
-cd AllHackingTools
-mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools/Tool
+cd AllHackingTools1
+mv MainMenu.py /data/data/com.termux/files/home/AllHackingTools1/Tool
 clear
-cd && cd AllHackingTools && bash src/AllHackingTool.sh
+cd && cd AllHackingTools1 && bash src/AllHackingTool.sh
