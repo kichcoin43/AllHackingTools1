@@ -1,6 +1,6 @@
 cd
 cd
-cd AllHackingTools
+cd AllHackingTools1
 cd Tool
 chmod +x *
 cp * /data/data/com.termux/files/usr/bin 
