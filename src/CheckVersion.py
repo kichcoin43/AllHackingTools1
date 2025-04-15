@@ -11,7 +11,7 @@ import os
 import sys
 
 print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)
-pkgs = ['python3', 'pip', 'php', 'ssh', 'pip2', 'wget', 'curl', 'python', 'python2', 'toilet', 'neofetch', 'figlet', 'lolcat', 'clang', 'w3m', 'jq', 'ruby', 'pv']
+pkgs = ['python3', 'pip', 'php', 'ssh', 'pip3', 'wget', 'curl', 'python', 'python3', 'toilet', 'neofetch', 'figlet', 'lolcat', 'clang', 'w3m', 'jq', 'ruby', 'pv']
 inst = True
 for pkg in pkgs:
 	present = which(pkg)
@@ -40,7 +40,7 @@ result = ''
 version = '2.7.4'
 
 def ver_check():
-	print(G + '[+]' + C + ' Checking the AllHackingTools for updates....', end='')
+	print(G + '[+]' + C + ' Checking the AllHackingTools1 for updates....', end='')
 	ver_url = 'https://raw.githubusercontent.com/mishakorzik/AllHackingTools/main/Castom/version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
@@ -64,5 +64,5 @@ try:
 
 except KeyboardInterrupt:
 	print ('\n' + R + '[!]' + C + ' Keyboard Interrupt.' + W)
-	os.system("cd && bash AllHackingTools/.check/ConfigurationOptions.sh")
+	os.system("cd && bash AllHackingTools1/.check/ConfigurationOptions.sh")
 
