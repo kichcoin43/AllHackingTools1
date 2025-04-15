@@ -12,9 +12,9 @@ clear
 sleep 1.5
 echo -e "$default"
 apt install python
-apt install python2 
+apt install python3
 apt install pip
-apt install pip2
+apt install pip3
 pip install requests
 pip2 install requests
 cd
