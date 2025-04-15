@@ -12,7 +12,7 @@ print("  \033[1;34m[01] \033[1;36;40mDefault  -  Standart installing and default
 print("  \033[1;34m[02] \033[1;36;40mCoded  -  Install via encoded code NOT RECOMMENDED")
 print("  \033[1;34m[02] \033[1;36;40mQuit  -  Exit and do not download AllHackingTools1")
 
-op=int(raw_input("1nStall: "))
+op=int(input("1nStall: "))
 
 if(op==1):
  os.system("clear")
